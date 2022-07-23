@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: rgb(185, 141, 163);
+}
+figcaption {
+    text-align: left;
+    font-size: 50px;
+}
+img {
+    
+    width: 40%;
+    height: 10%;
+    margin-top: auto;
+    margin-left: 20%;
+    padding: 10%;
+}
+.boite {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(116, 96, 106, 0.534);
+    border-right: 10px;
+    border-bottom: 10px;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50%;
+    top: 550px;
+    left: 300px;
+}
+.hobby {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(1500px, auto);
+}
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+.two { 
+    grid-column: 2;
+    grid-row: 1;
+}
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+h3 {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 300px;
+    color: white;
+}
+.link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(1500px, auto);
+}
